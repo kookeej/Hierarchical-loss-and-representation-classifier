@@ -1,6 +1,6 @@
 class DefaultConfig:
     MODEL_NAME = "klue/roberta-base"
-    DATA_PATH = "/home/dilab/SEHUI/kisti/data/"
+    DATA_PATH = ""
     SEED = 2022
     
     OPTION = ""
@@ -12,8 +12,8 @@ class DefaultConfig:
     TRAIN_LOG_INTERVAL = 1
     VALID_LOG_INTERVAL = 1
     
-    FILE_PATH = '/home/dilab/SEHUI/kisti/data/tagging_train_result.json'
-    vocab_file = '/home/dilab/SEHUI/kisti/data/vocab_kisti.txt'
+    FILE_PATH = ''
+    vocab_file = ''
     
     hierarchy = {
     '연구 목적': ['문제 정의', '가설 설정', '기술 정의'],
